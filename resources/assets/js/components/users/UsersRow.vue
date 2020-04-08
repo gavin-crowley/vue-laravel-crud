@@ -1,11 +1,11 @@
 <template>
 	<tr>
-      <th scope="row">{{ user.id }}</th>
+      <!-- <th scope="row"></th> -->
       <td>{{ user.first_name }}</td>
       <td>{{ user.last_name }}</td>
-      <td>{{ user.email }}</td>
+      <!-- <td>{{ user.email }}</td> -->
       <td>
-          <router-link :to="editUserUrl" class="btn btn-warning text-white">Edit</router-link>
+          <!-- <router-link :to="editUserUrl" class="btn btn-warning text-white">Edit</router-link> -->
       	<button @click='confirmBeforeDelete' type="button" class="btn btn-danger">Delete</button>
       </td>
     </tr>

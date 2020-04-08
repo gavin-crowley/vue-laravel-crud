@@ -1,18 +1,18 @@
 <template>
 	<div>
 		<router-link :to="{name: 'create'}" class="btn btn-success mb-3">
-			Add user
-			<i class="fas fa-plus"></i>
+			Add Item
+			<!-- <i class="fas fa-plus"></i> -->
 		</router-link>
 		<div class="table-responsive-md">
 			<table class="table">
 				<thead>
 					<tr>
-					  <th scope="col">ID</th>
+					  <!-- <th scope="col">ID</th> -->
 					  <th scope="col">First Name</th>
 					  <th scope="col">Last Name</th>
-					  <th scope="col">Email</th>
-					  <th scope="col">Actions</th>
+					  <!-- <th scope="col">Email</th> -->
+					  <!-- <th scope="col">Actions</th> -->
 					</tr>
 				</thead>
 				<tbody>
